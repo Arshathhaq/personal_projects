@@ -1,6 +1,6 @@
 # 🔍 Python Port Scanner  
 
-A **multi-threaded port scanner** built with Python to quickly scan and identify open ports on a target system. This tool helps in **network security analysis** and **vulnerability assessment**.  
+A **multi-threaded port scanner** built with Python to quickly scan and identify open ports on a target system.
 
 ## 🚀 Features  
 ✅ Uses Python’s `socket` module for port scanning  
