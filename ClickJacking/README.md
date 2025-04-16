@@ -42,7 +42,7 @@ if (window.top !== window.self) {
 ### 2. **HTTP Response Headers**
 Add these headers from your server:
 ```http
-X-Frame-Options: DENY
+X-Frame-Options: DENY or SAMEORIGIN
 ```
 or
 ```http
