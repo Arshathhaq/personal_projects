@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <style>
+    body {
+      background-color: #1e1e2f;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+    }
+
+    .welcome-box {
+      text-align: center;
+      background-color: #2a2a40;
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .welcome-box h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .welcome-box p {
+      font-size: 1rem;
+      color: #aaa;
+      margin-bottom: 1.5rem;
+    }
+
+    .logout-button {
+      padding: 0.6rem 1.2rem;
+      background-color: #4f46e5;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .logout-button:hover {
+      background-color: #4338ca;
+    }
+  </style>
+  <script>
+    function logout() {
+      window.location.href = "index.html"; // Assuming your login page is named index.html
+    }
+  </script>
+</head>
+<body>
+  <div class="welcome-box">
+    <h1>Welcome!</h1>
+    <p>You have successfully logged in.</p>
+    <button class="logout-button" onclick="logout()">Logout</button>
+  </div>
+</body>
+</html>
